@@ -1,0 +1,45 @@
+{
+    "prueba": [
+        {
+            "name": "david",
+            "user": "prueba",
+            "password": "1234",
+            "repassword": "1234"
+        },
+        {
+            "name": "david",
+            "user": "prueba1",
+            "password": "1234",
+            "repassword": "1234"
+        },
+        {
+            "name": "david",
+            "user": "prueba2",
+            "password": "1234",
+            "repassword": "1234"
+        },
+        {
+            "name": "david",
+            "user": "nuevo",
+            "password": "1234",
+            "repassword": "1234"
+        },
+        {
+            "name": "Jose",
+            "user": "Jesus",
+            "password": "1234",
+            "repassword": "1234"
+        },
+        {
+            "name": "dario",
+            "user": "jesus",
+            "password": "12345",
+            "repassword": "12345"
+        },
+        {
+            "name": "flavia",
+            "user": "mora",
+            "password": "123pepe"
+        }
+    ]
+}
