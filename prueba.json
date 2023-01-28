@@ -40,6 +40,12 @@
             "name": "flavia",
             "user": "mora",
             "password": "123pepe"
+        },
+        {
+            "user": "pepo",
+            "email": "nuevo@uno.com",
+            "password": "1234",
+            "delivery": "calle 123"
         }
     ]
 }
