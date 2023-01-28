@@ -1,4 +1,38 @@
-[
-        "{\"_cliente__user\": \"dios\", \"_cliente__email\": \"dios@uno.com\", \"_cliente__password\": \"1234\", \"_cliente__delivery\": \"cielo 123\"}",
-        "{\"_cliente__user\": \"dado\", \"_cliente__email\": \"dos@tres.com\", \"_cliente__password\": \"1234\", \"_cliente__delivery\": \"dedo\"}"
-]
+{
+    "prueba": [
+        {
+            "user": "david",
+            "email": "prueba@uno.com",
+            "password": "1234",
+            "delivery": "cale 123"
+        },
+        {
+            "user": "bubu",
+            "email": "nuevo@dos.com",
+            "password": "1234",
+            "delivery": "cale 123",
+            "id": "bubu8318"
+        },
+        {
+            "user": "zonya",
+            "email": "prueba@tres.com",
+            "password": "1234",
+            "delivery": "calle 123",
+            "id": "zonya3913"
+        },
+        {
+            "user": "feria",
+            "email": "prueba@cuatro.com",
+            "password": "1234",
+            "delivery": "calle 123",
+            "id": "feria7742"
+        },
+        {
+            "user": "jota",
+            "email": "jota@cinco.com",
+            "password": "1234",
+            "delivery": "calle 123",
+            "id": "jota347"
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 import random
 from datetime import datetime
 
-class persona:
+class person:
 
     def __init__(self):
         self.__name = None
@@ -27,17 +27,18 @@ class persona:
     def set_age(self, age):
         self.__age = age 
 
-class cliente(persona):
+class client(person):
 
     def __init__(self, user, email, password, delivery):
         self.__user = user
         self.__email = email
         self.__password = password
-        #self.__timestamp = datetime.now()
+        self.__timestamp = datetime.now()
         self.__delivery = delivery
+        self.__id = None
     
     def __str__(self):
-       return f'Cliente {self.__user}, email {self.__email}.'
+       return f'Cliente {self.get_user()}, ID: {self.get_id()}, email {self.get_email()}, fue creado {self.get_times()} .'
     
     #Se generan metodos get PUBLICOS, para leer los atributos.
     def get_user(self):
@@ -60,5 +61,12 @@ class cliente(persona):
         self.__password = password
     def get_delivery(self, delivery):
         self.__delivery = delivery
+    
+    #
+    def get_id(self):
+        self.__id = self.get_user() + str(random.randrange(start=1, stop=10000))
+        return self.__id
+        
+
 
     
