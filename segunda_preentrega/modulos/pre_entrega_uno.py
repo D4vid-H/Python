@@ -1,4 +1,4 @@
-from pre_entrega_dos import client
+from modulos.pre_entrega_dos import client
 import json
 
 # Funcion que crea nuevos usuarios.
@@ -80,7 +80,7 @@ def searchUser(user):
 # Funcion de lectura de archivo.
 def readFile():
     try:
-        ruta = 'c:\Development\Python\Clase\segunda_preentrega\modulos'
+        ruta = 'c:\Development\Python\Clase\modulos'
         with open(ruta + '\prueba.json', 'r') as file:            
             leer = json.load(file)       
         return (leer) 
@@ -90,7 +90,7 @@ def readFile():
 # Funcion de esctritura de archivo.
 def writeUser(user):
     try:
-        ruta = 'c:\Development\Python\Clase\segunda_preentrega\modulos'
+        ruta = 'c:\Development\Python\Clase\modulos'
         data = readFile()
         data['prueba'].append(user)     
         with open(ruta + '\prueba.json', 'w') as file:
